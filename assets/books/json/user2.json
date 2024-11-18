@@ -1,0 +1,53 @@
+[
+    {
+      "isbn": "9780345816023",
+      "name": "The Handmaid's Tale",
+      "author": "Margaret Atwood"
+    },
+    {
+      "isbn": "9780375703768",
+      "name": "Beloved",
+      "author": "Toni Morrison"
+    },
+    {
+      "isbn": "9780590353427",
+      "name": "Harry Potter and the Sorcerer’s Stone",
+      "author": "J.K. Rowling"
+    },
+    {
+      "isbn": "9780439139601",
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J.K. Rowling"
+    },
+    {
+      "isbn": "9781476753188",
+      "name": "The Silent Patient",
+      "author": "Alex Michaelides"
+    },
+    {
+      "isbn": "9780062316097",
+      "name": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson"
+    },
+    {
+      "isbn": "9780735211292",
+      "name": "Where the Crawdads Sing",
+      "author": "Delia Owens"
+    },
+    {
+      "isbn": "9780399590504",
+      "name": "Becoming",
+      "author": "Michelle Obama"
+    },
+    {
+      "isbn": "9780143038412",
+      "name": "The Road",
+      "author": "Cormac McCarthy"
+    },
+    {
+      "isbn": "9781449474256",
+      "name": "Milk and Honey",
+      "author": "Rupi Kaur"
+    }
+  ]
+  

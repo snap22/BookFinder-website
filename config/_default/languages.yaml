@@ -1,0 +1,38 @@
+en:
+  languageName: English
+  weight: 1
+  ### copyright (markdown can be used) ###
+  copyright: "Copyright &copy; {{< current_year >}} All Rights Reserved. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
+  title: "Book Finder"
+  params:
+    description: "Simple website for viewing owned books of specified users"
+    ### accessibility ###
+    # accessibility:
+    #   skip_text: "Skip to content"
+    #   help_text: "Accessibility Statement"
+    #   help_url: "/example-page/"
+    ### calls to action ###
+    # main_cta:
+    #   text: "Join"
+    #   link: "/example-page/"
+    # footer_cta:
+    #   text: "Join us"
+    #   link: "/example-page/"
+    # github_edit: "Edit this page on GitHub"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "users"
+      name: "Users"
+      url: ""
+      weight: 1
+    - identifier: "child-1"
+      name: "User1"
+      url: "/user1/"
+      weight: 1
+      parent: "users"
+    - identifier: "child-2"
+      name: "User2"
+      url: "/user2/"
+      weight: 2
+      parent: "users"

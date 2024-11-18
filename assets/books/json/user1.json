@@ -1,0 +1,63 @@
+[
+    {
+      "isbn": "9780143127741",
+      "name": "The Alchemist",
+      "author": "Paulo Coelho"
+    },
+    {
+      "isbn": "9780061120084",
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee"
+    },
+    {
+      "isbn": "9780451524935",
+      "name": "1984",
+      "author": "George Orwell"
+    },
+    {
+      "isbn": "9780307277671",
+      "name": "The Kite Runner",
+      "author": "Khaled Hosseini"
+    },
+    {
+      "isbn": "9780743273565",
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald"
+    },
+    {
+      "isbn": "9781501173219",
+      "name": "It Ends with Us",
+      "author": "Colleen Hoover"
+    },
+    {
+      "isbn": "9780439064873",
+      "name": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K. Rowling"
+    },
+    {
+      "isbn": "9780316769488",
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger"
+    },
+    {
+      "isbn": "9780385514231",
+      "name": "The Da Vinci Code",
+      "author": "Dan Brown"
+    },
+    {
+      "isbn": "9780316015844",
+      "name": "Twilight",
+      "author": "Stephenie Meyer"
+    },
+    {
+      "isbn": "9780316015844",
+      "name": "Přátelé odvedle",
+      "author": "Matoušek Jiří"
+    },
+    {
+      "isbn": "9780316015844",
+      "name": "A helység kalapácsa - Az apostol",
+      "author": "Sándor Petőfi"
+    }
+  ]
+  
