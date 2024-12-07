@@ -14,13 +14,15 @@
   }
 
   mark {
-  background-color: #ffbd61;
-  padding: 2px; /* Optional: Adjust padding */
-  border-radius: 3px; /* Optional: Add rounded corners */
-}
+    background-color: #ffbd61;
+    padding: 2px;
+    /* Optional: Adjust padding */
+    border-radius: 3px;
+    /* Optional: Add rounded corners */
+  }
 </style>
 
-<div class="cards" style="grid-template-columns: repeat(1, 1fr);" >
+<div class="cards" style="grid-template-columns: repeat(1, 1fr);">
   <input type="text" id="search-input" placeholder="Search for a book..." oninput="performSearch()" />
   <div id="search-results"></div>
 </div>
@@ -79,7 +81,7 @@
         const highlightedName = highlightMatches(result.item.name, result.matches, "normalized.name");
         const highlightedAuthor = highlightMatches(result.item.author, result.matches, "normalized.author");
 
-        return `<div class="card">
+        return `<div class="card" style="margin-top: 15px; padding-top:5px; padding-bottom:5px;">
           <h4>${highlightedName}</h4>
           <h5>${highlightedAuthor}</h5>
         </div>`;
