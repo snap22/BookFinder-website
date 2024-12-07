@@ -57,8 +57,8 @@
 
         <div class="footer__logo-social-wrapper">
             {{ with .Site.Params.logo_on_black }}
-            <a class="logo-link" href="{{ "." | relLangURL }}">
-                <img loading="lazy" class="logo" width="150" height="40" src="{{ . | relURL }}" alt="{{ $.Site.Title | safeHTMLAttr }}"></a>
+            <a class="logo-link" href="{{ $.Site.BaseURL | relLangURL }}">
+                <img loading="lazy" class="logo" width="150" height="40" src="{{ printf "%s%s" ($.Site.BaseURL | relLangURL) . }}" alt="{{ $.Site.Title | safeHTMLAttr }}"></a>
             {{ end }}
 
             {{- partial "footer/social-links.html" . -}}
