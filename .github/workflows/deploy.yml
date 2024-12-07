@@ -54,10 +54,6 @@ jobs:
           node-version: '18'
       - name: Install Node.js dependencies
         run: npm install
-      - name: Adjust Logo Paths in params.yaml
-        run: |
-          sed -i "s|logo_on_white:.*|logo_on_white: '${{ steps.pages.outputs.base_url }}/img/logo-b.svg'|" config/_default/params.yaml
-          sed -i "s|logo_on_black:.*|logo_on_black: '${{ steps.pages.outputs.base_url }}/img/logo-w.svg'|" config/_default/params.yaml
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
