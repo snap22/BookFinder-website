@@ -1,0 +1,29 @@
+{{ with $url := .Get 0 }}
+  {{ with resources.GetRemote $url }}
+    {{ $json := .Content | transform.Unmarshal }}
+    {{ with $json }}
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Author</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range . }}
+            <tr>
+              <td><strong>{{ .name }}</strong></td>
+              <td>{{ .author }}</td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    {{ else }}
+      {{ errorf "Unable to unmarshal the resource %s. Ensure it's valid JSON. See %s" $url $.Position }}
+    {{ end }}
+  {{ else }}
+    {{ errorf "The %q shortcode was unable to fetch the resource %s. See %s" $.Name $url $.Position }}
+  {{ end }}
+{{ else }}
+  {{ errorf "The %q shortcode requires one positional argument, the URL to the JSON data. See %s" .Name .Position }}
+{{ end }}
