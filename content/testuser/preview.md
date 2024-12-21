@@ -1,13 +1,14 @@
 
 +++
-title = "Search"
-url = "/testuser/search/"
+title = "Preview"
+url = "/testuser/preview/"
 draft = false
-summary = "Search for a specific book in user's collection"
+summary = "Preview all of the user's books"
 +++
 
-### Search for a specific book or view [all the books](/testuser/preview/)
+### Too many books? [Search for a specific one](/testuser/search/)
+{{< json-to-table-remote "https://drive.google.com/uc?export=download&id=13c1t1juZ1v1oQrD1nhyofKGNKsRc4Ylx" >}}
 
-{{< searchbar-remote "https://drive.google.com/uc?export=download&id=1wNLKmyaU6wmW0LogBdCs6nsqUw8X-V7r" >}}
+
 
 

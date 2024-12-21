@@ -1,13 +1,14 @@
 
 +++
-title = "Searchh"
-url = "/pouzivatel1/search/"
+title = "Preview"
+url = "/pouzivatel1/preview/"
 draft = false
-summary = "Search for a specific book in user's collection"
+summary = "Preview all of the user's books"
 +++
 
-### Search for a specific book or view [all the books](/pouzivatel1/preview/)
+### Too many books? [Search for a specific one](/pouzivatel1/search/)
+{{< json-to-table-remote "https://drive.google.com/uc?export=download&id=1JXS29SNhumwFCxp_Xvm_32UtBxh6Up5r" >}}
 
-{{< searchbar-remote "https://drive.google.com/uc?export=download&id=1-PnazMynTOwB808h6hZf3Vw0b94GDX9i" >}}
+
 
 
