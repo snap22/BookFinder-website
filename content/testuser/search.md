@@ -8,6 +8,6 @@ summary = "Search for a specific book in user's collection"
 
 ### Search for a specific book or view [all the books](/testuser/preview/)
 
-{{< searchbar-remote "https://drive.google.com/uc?export=download&id=1j3A9_8rKpPJPP_XUFG1s-4-KmFAIcEtt" >}}
+{{< searchbar-remote "https://drive.google.com/uc?export=download&id=1izIdvenqqOxangjgDjYIvrqxkBGdhD9k" >}}
 
 
